@@ -6,7 +6,7 @@
                 <div class="relative left-[calc(50%-11rem)] aspect-1155/678 w-144.5 -translate-x-1/2 rotate-30 bg-linear-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-288.75" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
             </div>
             <div class="mx-auto grid md:grid-cols-1 px-5 lg:px-0">
-                <div class="mx-auto grid lg:max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+                <div class="mx-auto grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
                     <div class="lg:pt-4 lg:pr-8 lg:pl-30">
                         <div class="h-full flex flex-col justify-center lg:max-w-lg">
                             <h2 class="mt-2 text-4xl md:text-5xl font-semibold tracking-tight text-pretty text-gray-900 font-satya">Empowering lives</h2>
@@ -24,12 +24,6 @@
                             class="w-full lg:w-[48rem] h-[500px] overflow-hidden max-w-none rounded-lg lg:rounded-none lg:rounded-l-lg shadow-xl ring-1 ring-gray-400/10" 
                             video-src="/video/Cecy-foundation hero video.mp4" 
                         />
-                        <!-- 
-                                                <VideoPlayer
-                            class="w-[48rem] h-[500px] overflow-hidden max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]" 
-                            video-poster="/images/cecy-foundation-logo-dark-bg.png" 
-                            video-src="/video/Cecy-foundation hero video.mp4" 
-                            /> -->
                     </div>
                 </div>
             </div>
@@ -81,6 +75,19 @@
 </template>
 
 <script setup>
+useHead({
+    title: "Home",
+     meta: [
+        { name: 'keywords', content: 'cecyhealth, ngo in nigeria, cecyfoundation, ngo in lagos, empowering lives, empowering communities' },
+        { name: 'description', content: 'Cecylia Oyebola Foundation empowers lives and communities, giving access to education, healthcare, and self-development should be a right, not a privilege, for every individual, no matter who or where they are.' },
+        { property: 'og:title', content: 'Home - Cecylia Oyebola Foundation' },
+        { property: 'og:description', content: 'Cecylia Oyebola Foundation empowers lives and communities, giving access to education, healthcare, and self-development should be a right, not a privilege, for every individual, no matter who or where they are.'},
+        { property: 'og:type', content: 'website' },
+        { property: 'og:url', content: 'https://ceciliaoyebolafoundation.com' },
+        { property: 'og:image', content: 'https://cecyhealth.org/images/cecy-foundation-logo.png'}
+    ]
+})
+
 const video = ref(null)
 const isPlaying = ref(false)
 const videoSrc = "C:\Users\XPS\Videos\cecy-found\VID-20250523-WA0012.mp4" // Replace with your actual path

@@ -1,19 +1,5 @@
 <template>
     <div class="grid gap-10 mx-auto px-5 py-10 lg:px-30">
-        <!-- <div class="text-center">
-            <div class="grid lg:grid-cols-3 h-[80vh]">
-                <div class="text-start flex flex-col justify-end pb-5 px-4 border-b-2 border-gray-300 lg:col-span-1">
-                    <h2 class="text-5xl font-semibold tracking-tight text-pretty text-gray-900">Who we are</h2>
-                    <p class="mt-3 text-xl text-gray-500">Learn about our mission, history, and the team behind the Cecy Foundation.</p>
-                </div>
-                <div class="lg:col-span-2">
-                    <img class="h-full" src="https://images.unsplash.com/photo-1726549384638-e530b978ac3e?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
-                </div>
-            </div>
-            <h2 class="text-5xl font-semibold tracking-tight text-pretty text-gray-900">Who we are</h2>
-            <p class="mt-3 text-xl text-gray-500">Learn about our mission, history, and the team behind the Health Foundation.</p>
-        </div> -->
-
         <div class="grid gap-5">
             <div class="text-center s-p font-semibold text-gray-500">Our mission, history, and the team</div>
             <div class="font-satya text-5xl text-[var(--cecy-found-blue)] font-bold text-center">Who We Are</div>
@@ -23,7 +9,7 @@
         </div>
 
         <div class="mt-10">
-            <div class="grid lg:grid-cols-2 items-center gap-10 items-center">
+            <div class="grid lg:grid-cols-2 items-center gap-10">
                 <div class="grid gap-5 text-lg">
                     <p>The Cecilia Oyebola Foundation was established on July 14th, 2013, by Dr. Yomi Jaye, the CEO and Founder of Cecy Health Consult Ltd. The foundation emerged as an extension of Cecy Health, born from a profound commitment to continuing the legacy of Cecilia Oyebola Abebi Durojaye, the beloved matriarch after her passing.</p>
         
@@ -59,3 +45,19 @@
         </div>
     </div>
 </template>
+
+<script setup>
+useHead({
+    title: "Who We Are",
+     meta: [
+        { name: 'keywords', content: 'cecyhealth, ngo in nigeria, cecyfoundation, ngo in lagos, empowering lives, empowering communities' },
+        { name: 'description', content: 'Cecylia Oyebola Foundation empowers lives and communities, giving access to education, healthcare, and self-development should be a right, not a privilege, for every individual, no matter who or where they are.' },
+        { property: 'og:title', content: 'Who We Are - Cecylia Oyebola Foundation' },
+        { property: 'og:description', content: 'Cecylia Oyebola Foundation empowers lives and communities, giving access to education, healthcare, and self-development should be a right, not a privilege, for every individual, no matter who or where they are.'},
+        { property: 'og:type', content: 'website' },
+        { property: 'og:url', content: 'https://ceciliaoyebolafoundation.com/who-we-are' },
+        { property: 'og:image', content: 'https://cecyhealth.org/images/cecy-foundation-logo.png'}
+    ]
+})
+
+</script>

@@ -1,5 +1,5 @@
 <template>
-  <div class="grid lg:grid-cols-2 gap-10 w-full px-10">
+  <div class="grid xl:grid-cols-2 gap-10 w-full px-10">
     <!-- Vertical Marquee: Normal Direction -->
     <div class="logos_marquee_vertical">
       <div class="marquee_logos_vertical">

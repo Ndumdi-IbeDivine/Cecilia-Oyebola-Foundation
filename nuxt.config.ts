@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     devtools: { enabled: true },
     app: {
         head: {
-            titleTemplate: "%s",
+            titleTemplate: "%s - Cecylia Oyebola Foundation",
             // meta: [
             //     {
             //         name: "viewport",
