@@ -13,7 +13,7 @@ export default defineNuxtConfig({
     },
     app: {
         head: {
-            titleTemplate: "%s - Cecylia Oyebola Foundation",
+            titleTemplate: "%s - Cecilia Oyebola Foundation",
             // meta: [
             //     {
             //         name: "viewport",

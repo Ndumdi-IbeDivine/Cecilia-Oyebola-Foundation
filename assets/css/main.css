@@ -22,6 +22,13 @@
     scroll-behavior: smooth;
 }
 
+html {
+    background:
+        radial-gradient(circle at 10% 12%, rgba(74, 94, 185, 0.16), transparent 34%),
+        radial-gradient(circle at 92% 24%, rgba(249, 184, 68, 0.2), transparent 30%),
+        linear-gradient(160deg, #fffaf0 0%, #f9fbff 45%, #fef5e3 100%);
+}
+
 .font-satya {
     font-family: 'satya';
 }
@@ -39,4 +46,16 @@ p {
 
 button {
     transition: .5s ease;
+}
+
+.hero-chip {
+    border: 1px solid rgba(74, 94, 185, 0.24);
+    border-radius: 9999px;;
+    color: var(--cecy-found-blue);
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.22em;
+    padding: 0.45rem 0.9rem;
+    text-transform: uppercase;
+    width: fit-content;
 }

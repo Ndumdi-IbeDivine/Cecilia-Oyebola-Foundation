@@ -1,6 +1,6 @@
 <template>
     <header
-        class="text-gray-400 bg-gray-900 body-font fixed z-[999] top-0 left-0 right-0 w-full"
+        class="text-gray-400 bg-[#0b153c] body-font fixed z-999 top-0 left-0 right-0 w-full"
     >
         <div class="grid grid-cols-2 items-center lg:px-30 px-2 py-2">
             <!-- Logo -->
@@ -70,7 +70,7 @@
                           exact-active-class="active-link"
                         >
                             <span class="text-gray-400">01</span>
-                            <span class="h-[1px] w-20 bg-white transition-all duration-300 ease-in-out group-hover:w-28"></span>
+                            <span class="h-px w-20 bg-white transition-all duration-300 ease-in-out group-hover:w-28"></span>
                             Home
                         </NuxtLink>
 
@@ -81,7 +81,7 @@
                           exact-active-class="active-link"
                         >
                             <span class="text-gray-400">02</span>
-                            <span class="h-[1px] w-20 bg-white transition-all duration-300 ease-in-out group-hover:w-28"></span>
+                            <span class="h-px w-20 bg-white transition-all duration-300 ease-in-out group-hover:w-28"></span>
                             Who We Are
                         </NuxtLink>
 
@@ -92,8 +92,19 @@
                           exact-active-class="active-link"
                         >
                             <span class="text-gray-400">03</span>
-                            <span class="h-[1px] w-20 bg-white transition-all duration-300 ease-in-out group-hover:w-28"></span>
+                            <span class="h-px w-20 bg-white transition-all duration-300 ease-in-out group-hover:w-28"></span>
                             Our Impact
+                        </NuxtLink>
+
+                        <NuxtLink
+                          @click="isMenuOpen = false"
+                          to="/gallery"
+                          class="lg:text-3xl text-2xl flex gap-5 items-center group lg:hover:text-5xl eaase-in-out transition-all duration-300 w-fit"
+                          exact-active-class="active-link"
+                        >
+                            <span class="text-gray-400">04</span>
+                            <span class="h-px w-20 bg-white transition-all duration-300 ease-in-out group-hover:w-28"></span>
+                            Gallery
                         </NuxtLink>
                         <!-- <SecondaryBtn @click="isMenuOpen = false">Partner with us</SecondaryBtn> -->
                     </div>

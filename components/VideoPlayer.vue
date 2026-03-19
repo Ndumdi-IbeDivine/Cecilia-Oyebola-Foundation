@@ -1,6 +1,6 @@
 <template>
     <div
-        class="relative w-full max-w-3xl mx-auto h-full group"
+        class="relative group"
         @mouseenter="showControls = true"
         @mouseleave="showControls = false"
     >
