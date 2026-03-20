@@ -59,7 +59,7 @@
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.25 4.5C2.25 3.675 2.925 3 3.75 3h1.5c.414 0 .75.336.75.75v2.25a.75.75 0 01-.75.75H4.5v1.5c0 6.075 4.925 11 11 11h1.5v-1.5a.75.75 0 01.75-.75h2.25a.75.75 0 01.75.75v1.5c0 .825-.675 1.5-1.5 1.5h-3A15.75 15.75 0 012.25 4.5z" />
                                 </svg>
                             </span>
-                            <a href="tel:+09131058071" class="transition hover:text-[#f9b844]">0913 105 8071</a>
+                            <a href="tel:+2349131058071" class="transition hover:text-[#f9b844]">0913 105 8071</a>
                         </div>
                     </div>
                 </div>
